@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #edefee;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-inline-start: 0rem;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0.25rem;  
+}
+
+nav ul a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+nav ul a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    color: orange;
+}
+
+section{
+    display: flex;
+    gap: 2rem  1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article{
+    flex: 1;
+    border-radius: 1rem;
+}
+
+article img{
+    max-width: 100%;
+    margin-top: 2rem;
+}
+article ul{
+    list-style: none;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main article{
+    background-color: bisque;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.container{
+    background-image: url(./pasta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 1rem;
+}
+
+.hero{
+    background-color: hsl(0, 0%, 0%, 0.403);
+}
+
+.hero h1{
+    color: whitesmoke;
+}
+
+.hero p{
+    color: whitesmoke;
+}
+
+.container:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+article:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+footer{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+    align-items: end;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-inline-start: 0rem;
+    margin: 1rem 1rem 0 1rem;
+    background-color: dimgray;
+    border-radius: 0.5rem;
+}
+
+

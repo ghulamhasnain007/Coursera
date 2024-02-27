@@ -1,0 +1,25 @@
+.header_img{
+    display: flex;
+    justify-content: center;
+    align-items: center !;
+}
+.header_img {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 20%; /* Makes the image responsive */
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2{
+    color: brown;
+}

@@ -1,0 +1,7 @@
+/* h1 ~ p{
+    color: blue;
+} */
+
+div + p {
+    color: blue;
+}
